@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.pages-link {
+    display: flex;
+    align-items: center;
+}
+
+.pages-link-a {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #428BD4;
+    text-decoration: none;
+}
+
+.pages-link-about {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333333;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.pages-title {
+    background: url(../img/about-title.png) no-repeat;
+    background-position: center;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-h {
+    font-family: Alegreya SC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+}
+
+.header-about {
+    background: url(../img/about-bg.png) !important;
+    background-repeat: no-repeat !important;
+    padding-bottom: 35px;
+}
+
+.about-ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-bottom {
+    background: url(../img/about-bottom.png) no-repeat;
+    height: 80px;
+    background-position: center;
+}
+
+.about-title {
+    padding: 60px 0;
+    background: #F7F4EF;
+}
+
+.about-nav.show {
+    left: 0;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .pages-link {
+        margin-bottom: 15px;
+    }
+
+    .title-h {
+        font-size: 34px;
+        line-height: 33px;
+    }
+}
